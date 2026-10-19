@@ -1,0 +1,8 @@
+.venv/
+.env
+session_state.json
+runs.log
+received.jsonl
+screenshots/
+__pycache__/
+*.pyc

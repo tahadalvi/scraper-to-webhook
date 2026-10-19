@@ -1,0 +1,3 @@
+# Linux / VPS equivalent of schedule_windows.ps1. Edit the path, then: crontab -e
+# Runs every day at 09:15 server time.
+15 9 * * * cd /opt/scraper-to-webhook && .venv/bin/python scraper.py >> cron.log 2>&1
