@@ -106,6 +106,11 @@ All settings live in `.env` (see `.env.example`). Credentials never go in code o
   before running this against a production account.
 - Exit codes: `0` success, `1` unexpected error, `2` login blocked (manual login needed).
 
+## Need one built for your site?
+
+I build these as fixed-price jobs: login with saved session, scrape, dedupe, deliver to a webhook, Google Sheet or API, on a schedule.
+[Hire me on Fiverr](https://www.fiverr.com/tahadalvi11/build-a-python-scraper-bot-that-sends-website-data-to-your-webhook).
+
 ## Licence
 
 MIT
